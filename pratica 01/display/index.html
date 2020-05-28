@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        body{ 
+            font-size: 40px;
+            color: #fff;
+            background-color: coral;
+        }
+        ul{
+            padding: 0;
+        }
+        div{
+            background-color: seagreen;
+        }
+        span{
+            background-color: dodgerblue;
+        }
+        li{
+            background-color:rgb(165, 18, 165)
+        }
+        div, span, li {
+            width: 50%;
+            width: 200px;
+            height: 80px;
+            padding-top: 30px;
+            text-align: center;
+            /* display: block; Faz com que cada tag fique em uma linha */
+            display: inline-block; /* Diferente do inline o inline-block considera o tamanho e a largura */
+        }
+    </style>
+</head>
+<body>
+    <div>Texto 1</div>
+    <span>Texto 2</span>
+    <span>Texto 3</span>
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
+</body>
+</html>
